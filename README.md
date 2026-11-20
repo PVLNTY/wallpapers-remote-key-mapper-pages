@@ -1,10 +1,10 @@
-# Wallpapers + Remote Key Mapper — pages
+# Wallpapers and Remote Key Mapper Pages
 
-This public repository contains only the two application pages and downloadable APK files. Application source code is maintained in a separate private repository.
+This public repository has two app pages and APK downloads. App source code is kept in a separate private repository.
 
+- Home page: `docs/index.html`
 - Wallpapers: `docs/wallpapers/`
 - Remote Key Mapper: `docs/remote-key-mapper/`
-- Site home: `docs/index.html`
-- Downloads: `docs/downloads/`
+- APK downloads: `docs/downloads/`
 
-GitHub Pages publishes from the `main` branch and `/docs` folder.
+GitHub Pages uses the `main` branch and the `/docs` folder.
