@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101522">
+  <meta name="description" content="Два приложения для Android TV: Wallpapers и Remote Key Mapper.">
+  <title>TV Apps — Wallpapers и Remote Key Mapper</title>
+  <style>
+    :root{color-scheme:dark;--bg:#101522;--panel:#191f2d;--line:#303849;--text:#f5f7fb;--muted:#aab4c4;--blue:#66c4f5;--violet:#b5a0ff;--mint:#9de8d2}
+    *{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 12% 0%,#1c3953 0,transparent 38%),radial-gradient(ellipse at 90% 35%,#293052 0,transparent 32%),var(--bg);color:var(--text);font:16px/1.6 system-ui,-apple-system,"Segoe UI",sans-serif}
+    a{color:inherit;text-decoration:none}.wrap{width:min(1100px,calc(100% - 40px));margin:auto}.top{padding:26px 0;border-bottom:1px solid #ffffff16}.brand{font-weight:750;letter-spacing:.04em}.brand span{color:var(--blue)}
+    main{padding:76px 0 90px}.eyebrow{text-transform:uppercase;letter-spacing:.2em;color:var(--blue);font-size:.76rem;font-weight:700}.hero{max-width:740px}.hero h1{font-size:clamp(2.6rem,7vw,5rem);letter-spacing:-.055em;line-height:1.02;margin:14px 0 22px}.hero p{font-size:1.15rem;color:var(--muted);max-width:620px}
+    .cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;margin-top:52px}.card{position:relative;overflow:hidden;border:1px solid var(--line);border-radius:24px;padding:30px;background:linear-gradient(145deg,#20293aee,#171c29ee);min-height:270px;transition:transform .2s,border-color .2s}.card:hover{transform:translateY(-4px);border-color:#ffffff60}.orb{width:62px;height:62px;border-radius:20px;display:grid;place-items:center;font-size:30px;background:#ffffff12;margin-bottom:30px}.wall .orb{color:var(--blue);background:#66c4f51b}.keys .orb{color:var(--violet);background:#b5a0ff1b}.card h2{font-size:1.55rem;margin:0}.card p{color:var(--muted);max-width:430px;margin:9px 0 22px}.go{font-weight:700;color:var(--mint)}.foot{padding:26px 0 40px;color:#8490a2;font-size:.88rem;border-top:1px solid #ffffff16}
+    @media(max-width:700px){main{padding:54px 0 62px}.cards{grid-template-columns:1fr}.card{min-height:0}}
+  </style>
+</head>
+<body>
+  <header class="top"><div class="wrap brand">TV <span>APPS</span></div></header>
+  <main class="wrap">
+    <div class="hero"><div class="eyebrow">Для Android TV</div><h1>Ваш телевизор.<br>Ваши правила.</h1><p>Две отдельные страницы: Wallpapers для личных обоев и Remote Key Mapper для кнопок пульта. Здесь можно узнать о каждом приложении и скачать APK.</p></div>
+    <section class="cards" aria-label="Applications">
+      <a class="card wall" href="wallpapers/"><div class="orb" aria-hidden="true">▧</div><h2>Wallpapers</h2><p>Отправляйте фотографии Telegram-боту и используйте их как обои телевизора.</p><span class="go">Страница Wallpapers&nbsp; →</span></a>
+      <a class="card keys" href="remote-key-mapper/"><div class="orb" aria-hidden="true">⌘</div><h2>Remote Key Mapper</h2><p>Назначайте кнопкам пульта запуск приложений, установленных на телевизоре.</p><span class="go">Страница Remote Key Mapper&nbsp; →</span></a>
+    </section>
+  </main>
+  <footer class="wrap foot">Приложения для Android TV · Лаунчер в этот проект не входит.</footer>
+</body>
+</html>
